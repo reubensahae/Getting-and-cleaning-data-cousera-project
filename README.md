@@ -101,7 +101,7 @@ X_Subject_Merge<-rbind(X_subject_train,X_subject_test)
 
     1. Convert features vector from factor to character using as.character
     
-    ```{r}
+```{r}
 #Convert 2nd column from factor to character type
 features[,2]<-as.character(features[,2])
 
