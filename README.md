@@ -107,8 +107,7 @@ features[,2]<-as.character(features[,2])
 
 ```
 
-   2. Using grep and gsub, filter features vector for features containing "mean" / "sd" as text and  
-      store that text in featuresWanted,Also Use gsub to clean feature vector values  
+      2.Using grep and gsub, filter features vector for features containing "mean" / "sd" as text and         store that text in featuresWanted,Also Use gsub to clean feature vector values  
    
 ```{r}
  #Filter mean and sd from all measurements using grep and gsub
@@ -122,7 +121,8 @@ featuresWanted.names <- gsub('[-()]', '', featuresWanted.names)
 ```
 
 
-   3.  Made a subset of X_Merge called extract1, this data frame contains only variables whose names        contain "mean" or "sd" as content.
+      3. Made a subset of X_Merge called extract1, this data frame contains only variables whose  
+         names  contain "mean" or "sd" as content.
    
 ```{r}
 #extract only mean and sd by subsetting merged dataset
