@@ -2,12 +2,7 @@
 title: "Getting & Cleaning Data-Coursera Project Week-4 README"
 author: "Reuben Sahae"
 
-output: html_document
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 ## Introduction
 
